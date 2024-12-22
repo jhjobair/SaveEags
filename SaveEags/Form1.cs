@@ -33,8 +33,8 @@ namespace SaveEags
 
         private void MainGameTimerEvent(object sender, EventArgs e)
         {
-            txtScore.Text = "Eggs Caught: " + score; // show the score on Eggs Caught label
-            txtMiss.Text = "Eggs Missed: " + missed; // Show the misses on Eggs Missed label
+            txtScore.Text = "Score: " + score; // show the score on Eggs Caught label
+            txtMiss.Text = "Missed: " + missed; // Show the misses on Eggs Missed label
             // if the go left boolean is true AND chickens left is greater than 0
             if (goleft == true && chicken.Left > 0)
             {

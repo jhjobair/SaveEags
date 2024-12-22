@@ -57,7 +57,7 @@
             // 
             this.txtMiss.AutoSize = true;
             this.txtMiss.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtMiss.Location = new System.Drawing.Point(443, 9);
+            this.txtMiss.Location = new System.Drawing.Point(449, 3);
             this.txtMiss.Name = "txtMiss";
             this.txtMiss.Size = new System.Drawing.Size(139, 29);
             this.txtMiss.TabIndex = 1;
